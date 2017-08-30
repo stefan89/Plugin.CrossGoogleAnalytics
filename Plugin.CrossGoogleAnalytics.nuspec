@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+  	<id>Plugin.CrossGoogleAnalytics</id>
+    <version>1.0.0.4</version>
+ 	<authors>Stefan Collette</authors>
+    <owners>Stefan Collette</owners>
+    <projectUrl>https://github.com/stefan89/Plugin.CrossGoogleAnalytics</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Cross platform Google Analytics Plugin for Xamarin</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>Xamarin Google Analytics Plugin</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid10">
+		<dependency id="Xamarin.Android.Support.v4" version="[25.3.1,)" />
+		<dependency id="Xamarin.GooglePlayServices.Analytics" version="[42.1021.1,)" />
+		<dependency id="Xamarin.GooglePlayServices.Base" version="[42.1021.1,)" />
+		<dependency id="Xamarin.GooglePlayServices.Basement" version="[42.1021.1,)" />
+      </group>
+      <group targetFramework="xamarinios10">
+      	<dependency id="Xamarin.Build.Download" version="[0.4.5,)" />
+		<dependency id="Xamarin.Google.iOS.Analytics" version="[3.17.0.1,)" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+  	<!-- PCL -->
+    <file src="NuGetPackageInputBinaries/portable-net45+netcore45+wp8/GoogleAnalytics.Plugin.dll" target="lib/portable-net45+win+wp80+MonoTouch10+MonoAndroid10+xamarinmac20+xamarintvos10+xamarinwatchos10+xamarinios10" />
+    <file src="NuGetPackageInputBinaries/portable-net45+netcore45+wp8/GoogleAnalytics.Plugin.Shared.dll" target="lib/portable-net45+win+wp80+MonoTouch10+MonoAndroid10+xamarinmac20+xamarintvos10+xamarinwatchos10+xamarinios10" />
+    <!-- iOS -->
+    <file src="NuGetPackageInputBinaries/Xamarin.iOS10/GoogleAnalytics.Plugin.dll" target="lib/Xamarin.iOS10" />
+    <file src="NuGetPackageInputBinaries/Xamarin.iOS10/GoogleAnalytics.Plugin.Shared.dll" target="lib/Xamarin.iOS10" />
+    <!-- Android -->
+    <file src="NuGetPackageInputBinaries/MonoAndroid/GoogleAnalytics.Plugin.dll" target="lib/MonoAndroid10" />
+    <file src="NuGetPackageInputBinaries/MonoAndroid/GoogleAnalytics.Plugin.Shared.dll" target="lib/MonoAndroid10" />
+  </files>
+</package>
