@@ -2,7 +2,7 @@
 <package >
   <metadata>
   	<id>Plugin.CrossGoogleAnalytics</id>
-    <version>1.0.0.4</version>
+    <version>1.0.0.5</version>
  	<authors>Stefan Collette</authors>
     <owners>Stefan Collette</owners>
     <projectUrl>https://github.com/stefan89/Plugin.CrossGoogleAnalytics</projectUrl>
@@ -25,13 +25,13 @@
   </metadata>
   <files>
   	<!-- PCL -->
-    <file src="NuGetPackageInputBinaries/portable-net45+netcore45+wp8/GoogleAnalytics.Plugin.dll" target="lib/portable-net45+win+wp80+MonoTouch10+MonoAndroid10+xamarinmac20+xamarintvos10+xamarinwatchos10+xamarinios10" />
-    <file src="NuGetPackageInputBinaries/portable-net45+netcore45+wp8/GoogleAnalytics.Plugin.Shared.dll" target="lib/portable-net45+win+wp80+MonoTouch10+MonoAndroid10+xamarinmac20+xamarintvos10+xamarinwatchos10+xamarinios10" />
+    <file src="NuGetPackageInputBinaries/portable-net45+netcore45+wp8/Plugin.CrossGoogleAnalytics.dll" target="lib/portable-net45+win+wp80+MonoTouch10+MonoAndroid10+xamarinmac20+xamarintvos10+xamarinwatchos10+xamarinios10" />
+    <file src="NuGetPackageInputBinaries/portable-net45+netcore45+wp8/Plugin.CrossGoogleAnalytics.Abstractions.dll" target="lib/portable-net45+win+wp80+MonoTouch10+MonoAndroid10+xamarinmac20+xamarintvos10+xamarinwatchos10+xamarinios10" />
     <!-- iOS -->
-    <file src="NuGetPackageInputBinaries/Xamarin.iOS10/GoogleAnalytics.Plugin.dll" target="lib/Xamarin.iOS10" />
-    <file src="NuGetPackageInputBinaries/Xamarin.iOS10/GoogleAnalytics.Plugin.Shared.dll" target="lib/Xamarin.iOS10" />
+    <file src="NuGetPackageInputBinaries/Xamarin.iOS10/Plugin.CrossGoogleAnalytics.dll" target="lib/Xamarin.iOS10" />
+    <file src="NuGetPackageInputBinaries/Xamarin.iOS10/Plugin.CrossGoogleAnalytics.Abstractions.dll" target="lib/Xamarin.iOS10" />
     <!-- Android -->
-    <file src="NuGetPackageInputBinaries/MonoAndroid/GoogleAnalytics.Plugin.dll" target="lib/MonoAndroid10" />
-    <file src="NuGetPackageInputBinaries/MonoAndroid/GoogleAnalytics.Plugin.Shared.dll" target="lib/MonoAndroid10" />
+    <file src="NuGetPackageInputBinaries/MonoAndroid/Plugin.CrossGoogleAnalytics.dll" target="lib/MonoAndroid10" />
+    <file src="NuGetPackageInputBinaries/MonoAndroid/Plugin.CrossGoogleAnalytics.Abstractions.dll" target="lib/MonoAndroid10" />
   </files>
 </package>
