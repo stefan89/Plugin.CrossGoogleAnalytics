@@ -14,27 +14,27 @@ Add the nuget package to your PCL project and the platform specific project(s) (
 
 ### API Usage
 
-Before you can track an activity, you first need to call the initialise method once with the UA-ID of your project.
+Before you can track an activity, you first need to call the initialise method once with the UA-ID of your Google Analytics project.
 
-Here you can create an UA ID for your project: https://analytics.google.com
+Here you can create an UA-ID for your project: https://analytics.google.com
 
 
-Initialise method:
+**Initialise method:**
 ```c#
-CrossGoogleAnalytics.Current.Init ("<UA ID of your project>");
+CrossGoogleAnalytics.Current.Init ("<UA-ID of your project>");
 ```
 
 
 Now you are ready to track a page view or event to the Google Analytics portal
 
 
-Track page call:
+**Track page method:**
 ```c#
 CrossGoogleAnalytics.Current.TrackPage ("<page name>");
 ```
 
 
-Track event call:
+**Track event method:**
 ```c#
 CrossGoogleAnalytics.Current.TrackEvent ("<category>", "<action>", "<label>");
 ```
