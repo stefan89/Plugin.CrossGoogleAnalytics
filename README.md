@@ -48,4 +48,4 @@ Release notes: initial version
 
 
 ### Contributors
-v1.0.0.5 - Stefan Collette
+v1.0.0.5 - https://github.com/stefan89
